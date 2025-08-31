@@ -18,6 +18,6 @@ app.get('/',(req,res)=>{
 
 // rotues 
 import Routes from "./routes/index.js";
-app.use(Routes);
+app.use(Routes);  
 
 app.listen(PORT,()=>console.log(`server running on Port ${PORT}`));
