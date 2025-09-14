@@ -15,6 +15,11 @@ in package.json
 
   npm run dev
 
+.env file
+---------------
+PORT=5050
+DATABASE_URL="prisma+postgres://localhost:51213/?-----get it from your db "
+JWT_SECRET_KEY=supersecretdfghjkl_auth_key_change_mesdfghjk
 
 
 auth_micro/
