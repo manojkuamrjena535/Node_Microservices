@@ -1,4 +1,4 @@
-in this project we covring microsevices with Node.js 
+in this project we covring microsevices with Node.js (for better view, open in any code editor)
 ====================================================
 pres req :- 
 npm init
