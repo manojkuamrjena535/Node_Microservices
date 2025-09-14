@@ -1,11 +1,11 @@
 in this project we covring microsevices with Node.js 
-coverd topic:- Microservices
+====================================================
 pres req :- 
 npm init
 npm i nodemon express jsonwebtoken cors dotenv prisma @prisma/client
 npx prisma init
 npx prisma generate
----------------------
+----------------------
 in package.json 
   "type": "module",
   "scripts": {
