@@ -5,7 +5,7 @@ npm init
 npm i nodemon express jsonwebtoken cors dotenv prisma @prisma/client
 npx prisma init
 npx prisma generate
----------------------
+--------------------------------------------------------
 in package.json 
   "type": "module",
   "scripts": {
@@ -15,12 +15,7 @@ in package.json
 
   npm run dev
 
-.env file
----------------
-PORT=5050
-DATABASE_URL="prisma+postgres://localhost:51213/?-----get it from your db "
-JWT_SECRET_KEY=supersecretdfghjkl_auth_key_change_mesdfghjk
-
+---------------------------------------------------------
 
 auth_micro/
  ├── prisma/
@@ -65,6 +60,19 @@ post_micro/
  ├── .env
  ├── package.json
  └── nodemon.json
+
+---------------------------------------------------------
+
+.env file
+---------------------------------------------------------
+PORT=5050
+DATABASE_URL="prisma+postgres://localhost:51213/?-----get it from your db "
+JWT_SECRET_KEY=supersecretdfghjkl_auth_key_change_mesdfghjk
+
+# this need if you use jwt verification dynamically witout local verification (means verify from auth_micro)
+AUTH_SERVICE_URL=http://localhost:5050/api/verify
+
+-------------------------------------------------------------------------------------------------
 
 
 API's Test
