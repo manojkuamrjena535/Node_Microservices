@@ -1,5 +1,5 @@
-in this project we covring microsevices with Node.js 
-coverd topic:- Microservices
+in this project we covring microsevices with Node.js (for better view, open in any code editor)
+====================================================
 pres req :- 
 npm init
 npm i nodemon express jsonwebtoken cors dotenv prisma @prisma/client
